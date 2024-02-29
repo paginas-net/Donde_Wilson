@@ -1,0 +1,231 @@
+
+body, html{
+  margin: 10px;
+  padding: 6px;
+  height:100%;
+  background-color: rgb(3, 3, 3);
+}
+.top-bar{
+  width: 100%;
+  /*la posision fixed ayuda a fijar el boton y no se mueva con la pantalla*/
+  position:fixed;
+  border: #000000 solid 3px;
+  background-color: rgb(0, 0, 0);
+  /*movemos el div a la isquierda disminuye derecha aumenta.*/
+  left: -1%;
+  /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
+  top: 0%;
+  z-index: 999; /* Valor alto para que esté por encima de otros elementos */
+}
+.logo {
+  /*la posision fixed ayuda a fijar el boton y no se mueva con la pantalla*/
+  position: fixed;
+  transform: translate3d(-50, -50, 0);
+  /*movemos el div a la isquierda disminuye derecha aumenta.*/
+  left: 105%;
+  /*movemos el div hacia arriba disminuyendo, abajo aumenta.*/
+  top: 0%;
+  /*tamaño del icono*/
+  width: 36%;
+  height: 20%; 
+
+}
+
+.logo img {
+  margin-top: 5px; /* Ajusta la altura según tu logo */
+  margin-left: -70%;
+   width: 45%;
+   height: 40%; 
+ }
+
+
+
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px; /*superior*/
+    padding-left: 5%; /*izquierda*/
+    padding-right: 5%; /*derecha*/
+    font-weight: bold; /* negrilla*/
+
+ }
+ ul li{
+  margin-top: 13px;
+  font-size: 10px; /*tamaño de fuente*/
+  display:inline-block; /*posicionar orisontalmente*/
+  padding: 0px 5px; /*distancia (separacion entre si)*/
+  
+  
+
+}
+ a{
+    
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 100%;
+  display: inline-block; /* Para posicionar en línea y permitir ajuste de tamaño y margen */
+  margin-right: 5px; /* Espacio entre enlaces */
+
+}
+/*aca se acomoda a que color 
+se dsea cambiar al poner el cursor*/
+a:hover {
+  color: rgb(48, 71, 206);
+}
+
+
+
+
+
+.cont{
+  margin: 3px solid rgb(0, 0, 0) ;
+  z-index: 1000px;
+}
+  h1{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    line-height: 80%;
+    margin: 70px 0px 10px 0px;
+    
+   
+  }
+  h2{
+    /*titulos*/
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    margin: 1px 0px 1px 0px;
+    line-height: 90%
+    
+  }
+    
+    
+  
+
+h3{
+    /*descripciones*/
+    margin: 1px 0px 1px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 90%;
+    margin-bottom: 20px;
+
+}
+h4{
+  /*precio*/
+  margin: 5px 0px 5px 0px;
+  color: rgb(231, 235, 12);
+  font-size: 200%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 90%;
+  margin-bottom: 5px;
+
+}
+
+
+
+table {
+  
+  width: 95%; /* Ancho de la tabla */
+  margin: 15px auto; /*margen superior, Centra la tabla horizontalmente */
+  border-collapse: collapse; /* Colapsa los bordes de las celdas */
+}
+
+th, td {
+  border: 3px solid rgba(0, 0, 0, 0); /* Borde de las celdas */
+  padding: -2px; /* Espacio interno de las celdas */
+  text-align: center; /* Alineación del texto en el centro */
+}
+
+th {
+  background-color: rgba(235, 235, 235, 0); /* Color de fondo para las celdas de encabezado */
+}
+
+.image-container00 {
+  position:relative;
+  margin: 7px ;
+  top: 55%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 10px;
+
+  width: 105%; /* Ancho del div */
+  height: 50%; /* Alto del div */
+  background-image: url('01_01-1_01-1.jpg'); /* Ruta de la imagen */
+  background-size:contain; /* Ajusta la imagen para que cubra todo el div */
+  background-repeat: no-repeat;
+  background-position:top ; /* Centra la imagen dentro del div */
+  border: 5px solid rgba(245, 241, 8, 0); /* Borde para visualización */
+}
+.image-container0 {
+  position:relative;
+  margin: 0px ;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10px;
+
+  width: 100%; /* Ancho del div */
+  height: 40%; /* Alto del div */
+  background-image: url('04_01-4.jpg'); /* Ruta de la imagen */
+  background-size:contain; /* Ajusta la imagen para que cubra todo el div */
+  background-repeat: no-repeat;
+  background-position:top ; /* Centra la imagen dentro del div */
+  border: 5px solid rgba(13, 68, 218, 0); /* Borde para visualización */
+}
+
+
+  .image-container {
+    position:relative;
+    margin: 7px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10px;
+
+    width: 100%; /* Ancho del div */
+    height: 100%; /* Alto del div */
+    background-image: url('03_01-3.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    border: 5px solid rgba(255, 255, 255, 0); /* Borde para visualización */
+  }
+  .image-container2 {
+    position:relative ;
+    margin: 7px ;
+    top: 78%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+
+    width: 100%; /* Ancho del div */
+    height: 100%; /* Alto del div */
+    background-image: url('02_01-2.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    border: 5px solid rgba(180, 19, 19, 0); /* Borde para visualización */
+  }
+  .image-container01 {
+    position:relative ;
+    margin: 0px 0px 0px 0px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; /* Ancho del div */
+    height: 140%; /* Alto del div */
+   
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    border: 5px solid rgba(12, 212, 45, 0); /* Borde para visualización */
+  }
+  h6{
+    color: aqua;
+    font-size: 70%;
+  }
+
+
+ 
