@@ -153,7 +153,7 @@ th {
   transform: translate(-50%, -50%);
   z-index: 10px;
 
-  width: 105%; /* Ancho del div */
+  width: 108%; /* Ancho del div */
   height: 50%; /* Alto del div */
   background-image: url('01_01-1_01-1.jpg'); /* Ruta de la imagen */
   background-size:contain; /* Ajusta la imagen para que cubra todo el div */
@@ -165,7 +165,7 @@ th {
   position:relative;
   margin: 0px ;
   top: 30%;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%, -50%);
   z-index: 10px;
 
@@ -182,7 +182,7 @@ th {
   .image-container {
     position:relative;
     margin: 7px ;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10px;
