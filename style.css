@@ -87,7 +87,7 @@ a:hover {
     color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
-    line-height: 80%;
+    line-height: 90%;
     margin: 70px 0px 10px 0px;
     
    
@@ -225,6 +225,7 @@ th {
   h6{
     color: aqua;
     font-size: 70%;
+    margin: 0px 0px 0px 0px;
   }
 
 
