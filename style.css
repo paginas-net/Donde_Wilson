@@ -64,7 +64,7 @@ body, html{
     
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 100%;
+  font-size: 160%;
   display: inline-block; /* Para posicionar en línea y permitir ajuste de tamaño y margen */
   margin-right: 5px; /* Espacio entre enlaces */
 
